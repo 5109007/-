@@ -1,0 +1,16 @@
+Private Sub Command1_Click()
+
+
+Dim a, b, p As Integer
+a = Val(InputBox("a="))
+b = Val(InputBox("b="))
+
+p = a
+a = b
+b = p
+
+Print ("a=" & a)
+Print ("b=" & b)
+
+
+End Sub
